@@ -1,10 +1,10 @@
 { 
   "port": 3000, 
-  "redis_url": "redis://127.0.0.1:6379", 
-  "db_url": "postgres://admin:Admin%40123@127.0.0.1:5432/appdb", 
-  "auth_service_url": "http://127.0.0.1:4000",
-  "realtime_gateway_url": "http://127.0.0.1:8080",
-  "state_service_url": "http://127.0.0.1:7000",
-  "enrichment_service_url": "http://127.0.0.1:5000",
-  "ingestion_service_url": "http://127.0.0.1:6000"
+  "redis_url": "redis://172.31.8.151:6379", 
+  "db_url": "postgres://admin:Admin%40123@172.31.8.151:5432/appdb", 
+  "auth_service_url": "http://172.31.8.151:4000",
+  "realtime_gateway_url": "http://172.31.8.151:8080",
+  "state_service_url": "http://172.31.8.151:7000",
+  "enrichment_service_url": "http://172.31.8.151:5000",
+  "ingestion_service_url": "http://172.31.8.151:6000"
 }

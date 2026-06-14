@@ -9,8 +9,8 @@ const PORT = 9000;
 
 app.get('/config', (req, res) => {
     res.json({
-        db_url: "postgres://admin:Admin%40123@127.0.0.1:5432/appdb",
-        redis_url: "redis://127.0.0.1:6379"
+        db_url: "postgres://admin:Admin%40123@172.31.13.234:5432/appdb",
+        redis_url: "redis://172.31.13.234:6379"
     });
 });
 

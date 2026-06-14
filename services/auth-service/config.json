@@ -1,0 +1,1 @@
+{ "port": 4000, "common_api_url": "http://127.0.0.1:9000", "jwt_expiry": "1h" }

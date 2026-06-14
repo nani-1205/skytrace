@@ -1,0 +1,12 @@
+<div class="map-container" #mapContainer></div>
+
+<!-- Legend: only shown when a flight is selected -->
+<div class="map-legend" *ngIf="hasSelection">
+  <span class="legend-item">
+    <span class="legend-dot cyan"></span> Cruising
+  </span>
+  <span class="legend-divider">|</span>
+  <span class="legend-item">
+    <span class="legend-dot gold"></span> Selected
+  </span>
+</div>

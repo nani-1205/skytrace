@@ -1,0 +1,50 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Light Slate Glassmorphism Palette */
+  --bg-dark: #f4f6f8; /* Light background for body */
+  --bg-panel: rgba(255, 255, 255, 0.75); /* White frosted glass */
+  --bg-panel-hover: rgba(255, 255, 255, 0.95);
+  
+  --text-primary: #1e293b; /* Dark slate text */
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  
+  --border-subtle: rgba(148, 163, 184, 0.2); /* Soft slate border */
+  --border-focus: rgba(59, 130, 246, 0.5); /* Blue focus border */
+  
+  --accent-green: #26c281; /* Traditional UI green */
+  --accent-red: #e74c3c;
+  --accent-yellow: #f4d03f;
+  --accent-blue: #3498db; /* Bright blue for tracking */
+  --border-glow: rgba(52, 152, 219, 0.3); /* Blue glow */
+  --text-dim: #cbd5e1;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+/* Custom Scrollbar for the light theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.25);
+}

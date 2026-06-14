@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'http://127.0.0.1:3000';
+  private apiUrl = 'https://spoved.online';
 
   async getTrackHistory(icao24: string): Promise<[number, number, number][]> {
     try {

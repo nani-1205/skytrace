@@ -16,7 +16,7 @@ export class WebsocketService {
 
   private connect() {
     // Connects to port 3000 (API Gateway) which proxies /realtime to the Realtime Gateway
-    this.ws = new WebSocket('ws://127.0.0.1:3000/realtime');
+    this.ws = new WebSocket('ws://98.130.134.148:3000/realtime');
 
     this.ws.onopen = () => {
       console.log('WebSocket connected to Realtime Gateway');

@@ -1,7 +1,7 @@
 { 
   "port": 3000, 
-  "redis_url": "redis://172.31.8.151:6379", 
-  "db_url": "postgres://admin:Admin%40123@172.31.8.151:5432/appdb", 
+  "redis_url": "redis://172.31.13.234:6379", 
+  "db_url": "postgres://admin:Admin%40123@172.31.13.234:5432/appdb", 
   "auth_service_url": "http://172.31.8.151:4000",
   "realtime_gateway_url": "http://172.31.8.151:8080",
   "state_service_url": "http://172.31.8.151:7000",
